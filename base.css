@@ -1,0 +1,40 @@
+.mainbody{
+  /* width: 80%; */
+  /* padding: 10%; */
+}
+.nav-item .nav-link{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+
+}
+.nav-item{
+  border: none;
+  outline: none;
+  padding-left: 1%;
+  padding-right: 1%;
+  background-color: none;
+}
+.nav-link:hover, .nav-link:focus{
+  background-color: black;
+  color: white;
+  outline: none;
+}
+.nav-link:active{
+  border: none;
+  outline: none;
+}
+
+
+.mynavbar {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: auto;
+}
+.img {
+  width: 100%;
+  height: auto;
+}
+.content_p{
+  width: 100%;
+}
