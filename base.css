@@ -1,27 +1,53 @@
-.mainbody{
-  /* width: 80%; */
-  /* padding: 10%; */
+html{
+  scroll-behavior: smooth;
 }
-.nav-item .nav-link{
-  text-decoration: none;
-  font-size: 20px;
-  color: black;
+.mainbody{
+  /* width: 100rem !important; */
+  /* margin-left: 0; */
+  /* margin-right: 0; */
+  /* padding: 0%; */
+  max-width: 100ch;
+
+    background: rgb(232,  232, 213);
+    background-image: url(/assets/noise.svg) !important;
 
 }
+#page-container{
+}
+.nav-item .nav-link{
+  /* text-decoration: none; */
+  /* font-size: 20px; */
+}
+.nav-link{
+  background-color: none;
+  color: darkred;
+}
+.nav-link.active {
+  background-color: darkred;
+  opacity: 80%;
+  color: white;
+  border-bottom: 1px solid white;
+  /* margin-bottom: 4px; */
+}
+.nav-link.active::after{
+  content: '';
+  display: block;
+  border-bottom: 1px solid white;
+  /* margin-bottom: 4px; */
+}
+
 .nav-item{
   border: none;
+  border-radius: 2px;
   outline: none;
   padding-left: 1%;
   padding-right: 1%;
-  background-color: none;
 }
 .nav-link:hover, .nav-link:focus{
-  background-color: black;
+  background-color: darkred;
+  opacity: 80%;
   color: white;
-  outline: none;
-}
-.nav-link:active{
-  border: none;
+  border-radius: 2px;
   outline: none;
 }
 
@@ -37,4 +63,92 @@
 }
 .content_p{
   width: 100%;
+  font-size: 16px;
+}
+
+.btn_toggle{
+  border-radius: 5px;
+  border: none;
+  padding: 1% 3% 1% 3%;
+}
+#footer{
+  position: relative;
+  /* position:fixed; */
+  bottom:0;
+  border-top: 1px solid grey;
+  /* width: inherit; */
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1rem;            /* Footer height */
+  margin-top: 10%;
+}
+span{
+  padding: 0;
+}
+/* #btn-back-to-top {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  display: none;
+  border-radius: 10%;
+  border: none;
+  background-color: darkred;
+  opacity: 80%;
+} */
+.socialicons{
+
+  text-align: center;
+}
+.socialicons>a{
+  text-decoration:none;
+  outline:none;
+  padding: 5%;
+}
+.socialicons>a>i{
+  font-size: 20px;
+  color: gray;
+}
+
+.socialicons>a>i:hover{
+  font-size: 20px;
+  color: darkred;
+}
+#dark-mode-toggle{
+  background-color: none;
+  border: none;
+  border-radius: 3px;
+  width: 40px;
+  height: 40px;
+  position:fixed;
+  bottom: 100px;
+  left: 100px;
+  align-content: center;
+}
+#dark-mode-toggle>i{
+  font-size: 20px;
+  color:black;
+}
+.sidenote1{
+  font-size: 16px;
+  /* color:  */
+}
+.ribbon-highlight{
+  border:1px dashed darkred;
+  padding:0.1em 0.3em;
+}
+#toplink{
+  outline: none;
+  border: none;
 }
