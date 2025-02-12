@@ -124,7 +124,7 @@
   </div>
 
 
-  
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <script>
   // dark mode toggle
   function darkmodetoggle() {
@@ -144,11 +144,11 @@
 
   <script src="photoswipe-lightbox.esm.js"></script>
   <script type="module">
-import PhotoSwipeLightbox from 'anirudhchhabra96.github.io/photoswipe-lightbox.esm.js';
+import PhotoSwipeLightbox from './photoswipe-lightbox.esm.js';
 const lightbox = new PhotoSwipeLightbox({
   gallery: '#my-gallery',
   children: 'a',
-  pswpModule: () => import('/photoswipe.esm.js')
+  pswpModule: () => import('./photoswipe.esm.js')
 });
 lightbox.init();
 </script>
