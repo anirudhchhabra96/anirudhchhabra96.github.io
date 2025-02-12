@@ -152,3 +152,8 @@ span{
   outline: none;
   border: none;
 }
+.sidenote_container{
+  position: absolute
+    display: flex;
+    flex-direction: column;
+}
