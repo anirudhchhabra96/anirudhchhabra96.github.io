@@ -84,11 +84,7 @@
       </header>
       <i><h4>Welcome to my personal website.</h4></i>
       <p class="content_p" align="justify">    
-      
-<!--         <div class="sidenote left sidenote1"><img class="img" style="max-width:100px; height:auto;" src="images/nafips_award.jpg"/>  </div>
-        <div class="sidenote sidenote1"> <img class="img" style="max-width:100px; height:auto;" src="images/AnirudhChhabra2.jpeg"/></div>
-        <div class="sidenote left sidenote1"> <img class="img" src="images/makerspace.jpg"/></div>
-        <div class="sidenote sidenote1"><img class="img" src="images/airforcemuseum1.jpg"/> </div> -->
+
         As a Ph.D. Candidate in Aerospace Engineering at the University of Cincinnati (UC), I conduct cutting-edge research in the Intelligent Autonomous Systems Research Laboratory (IASRL) supervised by Dr. Donghoon Kim. My primary dissertation research is on the development of a hardware-in-the-loop spacecraft simulator for on-orbit service missions, which involves designing, building, and testing a unique ground-based platform that mimics the dynamics and environment of space.
         <br><br>
         I am also involved in several other research projects that span across domains such as autonomous systems, explainable AI, sensor fusion, estimation, and uncertainty analysis. Some of the applications include collision-free multi-agent navigation, robust indoor positioning, dynamic wireless sensor networks, spherical unmanned aerial vehicles, and underactuated and fault-tolerant spacecraft control. I have published multiple papers in prestigious conferences and journals, and received two competitive fellowships from the Space Research Institute for Discovery and Exploration (SRIDE) and the Institute for Research in Sensing (IRiS) at UC.
@@ -97,16 +93,8 @@
       </p>
       <!-- <p style="color:red; font-weight: bold; ">Under construction!</p> -->
       <br><br>  
-<!--       <div class="gallery">
-        <img src="images/AnirudhChhabra2.jpeg"  alt="Photo 1" onclick="openLightbox(this.src)">
-        <img src="images/makerspace.jpg" alt="Photo 2" onclick="openLightbox(this.src)">
-        <img src="images/airforcemuseum1.jpg" alt="Photo 3" onclick="openLightbox(this.src)">
-        <img src="images/nafips_award.jpg" alt="Photo 4" onclick="openLightbox(this.src)">
-    </div> -->
+
     
-<!--     <div class="lightbox" id="lightbox" onclick="closeLightbox()">
-        <img id="lightbox-img">
-    </div> -->
     <div class="gallery">
       <a href="images/AnirudhChhabra2.jpeg" data-lightbox="gallery" ><img src="images/AnirudhChhabra2.jpeg"></a>
       <a href="images/makerspace.jpg" data-lightbox="gallery" ><img src="images/makerspace.jpg"></a>
@@ -123,27 +111,16 @@
     </footer>
   </div>
 
-  <!-- Lightbox2 JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
-
-    <!-- Ensure Lightbox initializes -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            lightbox.init();
-        });
-    </script>
-
-  
-<!--   <script>
-        function openLightbox(src) {
-            document.getElementById('lightbox-img').src = src;
-            document.getElementById('lightbox').style.display = 'flex';
-        }
-        function closeLightbox() {
-            document.getElementById('lightbox').style.display = 'none';
-        }
-    </script> -->
-
+<!-- Load PhotoSwipe -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.4/photoswipe.umd.min.js"></script>
+<script>
+    const lightbox = new PhotoSwipeLightbox({
+        gallery: '.gallery',
+        children: 'a',
+        pswpModule: PhotoSwipe
+    });
+    lightbox.init();
+</script>
   <script>
   // dark mode toggle
   function darkmodetoggle() {
