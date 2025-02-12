@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="https://latex.now.sh/style.min.css" />
   <link rel="stylesheet" href="base.css" />
+  <link rel="stylesheet" href="photoswipe/dist/photoswipe.css">
+  <!-- PhotoSwipe CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.4/photoswipe.css">
+
 <!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"> -->
   
 
@@ -114,15 +118,26 @@
   </div>
 
 <!-- Load PhotoSwipe -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.4/photoswipe.umd.min.js"></script>
-<script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.4/photoswipe.umd.min.js"></script> -->
+<!-- <script>
     const lightbox = new PhotoSwipeLightbox({
         gallery: '.gallery',
         children: 'a',
         pswpModule: PhotoSwipe
     });
     lightbox.init();
+</script> -->
+  <script type="module">
+import PhotoSwipeLightbox from 'https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.4/photoswipe-lightbox.esm.js';
+const lightbox = new PhotoSwipeLightbox({
+  gallery: '#my-gallery',
+  children: 'a',
+  pswpModule: () => import('photoswipe/dist/photoswipe.esm.js')
+});
+lightbox.init();
 </script>
+
+  
   <script>
   // dark mode toggle
   function darkmodetoggle() {
