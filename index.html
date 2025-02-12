@@ -12,7 +12,23 @@
   <!-- PhotoSwipe CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.4/photoswipe.css">
 
-
+  <style>
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 10px;
+    }
+    .gallery img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out;
+    }
+    .gallery img:hover {
+        transform: scale(1.05);
+    }
+</style>
   <title>Anirudh Chhabra</title>
 </head>
 <!-- libertinus -->
