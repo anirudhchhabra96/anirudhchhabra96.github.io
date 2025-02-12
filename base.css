@@ -157,3 +157,27 @@ span{
     display: flex;
     flex-direction: column;
 }
+
+.gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 150px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0,0,0,0.8);
+            align-items: center;
+            justify-content: center;
+        }
+        .lightbox img {
+            width: 60%;
+            border-radius: 8px;
+        }
