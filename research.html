@@ -121,10 +121,10 @@
                   </ul>
                 </p>
                 <h4>Approaches & Results</h4>
-                <h5>Approach 1: Hybrid manipulator-based ground robotic platform for orbital motion emulation</h5>
-              <p>
+                <h5>Approach 1: Hybrid manipulator-based ground robotic platform for orbital motion emulation.</h5>
+                <p>
                   <ul>
-                    <li>It tracks a scaled-down orbital trajectory using a closed-loop inverse kinematics controller offering robustness against singularities and joint limits. <a href="https://arc.aiaa.org/doi/10.2514/1.I011008" target="_blank">[JAIS 2021]</a>, [ASC 2021]</li>
+                    <li>It tracks a scaled-down orbital trajectory using a closed-loop inverse kinematics (CLIK) controller offering robustness against singularities and joint limits. <a href="https://arc.aiaa.org/doi/10.2514/1.I011008" target="_blank">[JAIS 2022]</a>, [ASC 2021]</li>
                   </ul>
                 </p>
                 <div class="container row" style="width: 100%;">
@@ -135,21 +135,37 @@
                     <img src="images/gc_heo.png" width="100%">
                   </div>
                   <div class="col-12 text-center mycaption">
-                   Tracking the desired orbital trajectory while maintaining joint limit constraints
+                   Tracking the desired orbital trajectory while maintaining joint limit constraints.
                  </div>
               </div>
+              <h5>Approach 2: Emulating In-Space Servicing, Assembly, and Manufacturing (ISAM) missions with a 12-DOF Hardware-in-the-loop robotic testbed.</h5>
+              <p>
+                <ul>
+                  <li>The system offers inherent modularity, allowing multiple use cases to emulate ISAM missions.
+                  <li>Scenario 1: This configuration significantly enhances motion capabilities, particularly in translation and rotation, due to the system’s inherent kinematic redundancy. [ASC 2023]</li>
+                  <li>Scenario 2: Such a configuration is particularly valuable for testing control methods for traditional serial-link robotic arms in space missions, where the hexapod replicates 6 DOF satellite motion. [SFMM 2025]</li>
+                </ul>
+              </p>
               <div class="container row" style="width: 100%;">
-                  
-<!--                 <div class="col-12 myimg text-center">
-                  <img src="images/spaceservicing.gif" width="100%" height="100%">
-                </div> -->
+                <div class="col-12 myimg text-center">
+                    <img src="images/simulator_overview.png" width="100%">
+                </div>
+                <div class="col-12 text-center mycaption">
+                 Modularity of the HIL Simulator
+               </div>
+                
+                <div class="col-12 myimg text-center">
+                    <video width="100%" height="100%" controls><source src="images/space_servicing_mission_asc.mp4" type="video/mp4"></video>
+                </div>
+                <div class="col-12 text-center mycaption">
+                 Experimental Analysis of an ISAM Mission to dock a servicer spacecraft with a tumbling target satellite.
+               </div>
                 
                 <div class="col-12 myimg text-center">
                     <video width="100%" height="100%" controls><source src="images/space_servicing_mission3.mp4" type="video/mp4"></video>
                 </div>
-                  
                 <div class="col-12 text-center mycaption">
-                 Experimental Analysis of a Space Servicing Mission using a Hardware-in-the-loop simulator
+                 Experimental Analysis of an ISAM Mission to install a module in a tumbling target satellite.
                </div>
                 
             </div>
