@@ -40,6 +40,30 @@
         .feedback {
             font-style: italic;
         }
+        #side-nav {
+  position: fixed;
+  top: 200px; /* adjust as per your header height */
+  left: 20px;
+  width: 200px;
+  z-index: 1000;
+}
+#side-nav .nav-link {
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  background-color: #f8f9fa;
+  color: #333;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+#side-nav .nav-link.active {
+  background-color: #800000;
+  color: white;
+}
+#research-content {
+  margin-left: 240px;
+}
+
     </style>
   
 </head>
@@ -98,10 +122,60 @@
           </div>
         </header>
 
-        <h2>Hardware-in-the-Loop Spacecraft Simulators</h2>
+
+
+
+        <!-- Sidebar Navigation -->
+        <div id="side-nav" class="d-none d-md-block">
+          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist">
+            <a class="nav-link active" id="v-sim-tab" data-bs-toggle="pill" href="#v-sim" role="tab">Simulators</a>
+            <a class="nav-link" id="v-cmg-tab" data-bs-toggle="pill" href="#v-cmg" role="tab">CMG Control</a>
+            <a class="nav-link" id="v-new-tab" data-bs-toggle="pill" href="#v-new" role="tab">New Topic</a>
+          </div>
+        </div>
+
+        <!-- Research Tab Content -->
+<div id="research-content" class="tab-content">
+  <div class="tab-pane fade show active" id="v-sim" role="tabpanel">
+    <h2>Hardware-in-the-Loop Spacecraft Simulators</h2>
+    <div class="experience">
+      <div class="details">
+        <!-- Your existing content goes here -->
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-pane fade" id="v-cmg" role="tabpanel">
+    <h2>Control Moment Gyroscope Attitude Control</h2>
+    <div class="experience">
+      <div class="details">
+        <p>Coming soon: experiments using CMG-based systems for agile spacecraft reorientation, singularity avoidance, and steering laws.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-pane fade" id="v-new" role="tabpanel">
+    <h2>Future Research Topic</h2>
+    <div class="experience">
+      <div class="details">
+        <p>Placeholder for another research direction.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+        <!-- <h2>Hardware-in-the-Loop Spacecraft Simulators</h2>
 
         <div class="experience">
-<!--             <div class="title">Instructor, Intelligent Robotics (AEEM 6117)</div> -->
             <div class="details">
                 <p>
                   Develop a ground-based spacecraft simulator for hardware-in-the-loop simulations of on-orbit servicing missions.
@@ -180,7 +254,7 @@
 
         </div>
         <br>
-        <p>More content to be added soon...</p>
+        <p>More content to be added soon...</p> -->
         <p><a href="#top" id="toplink">[Top]</a></p>
 
         <footer id="footer" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
