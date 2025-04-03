@@ -137,13 +137,85 @@
 
         <!-- Research Tab Content -->
         <div id="research-content" class="tab-content">
+          
           <div class="tab-pane fade show active" id="v-sim" role="tabpanel">
             <h2>Hardware-in-the-Loop Spacecraft Simulators</h2>
             <div class="experience">
               <div class="details">
-                <!-- Your existing content goes here -->
+                  <p>
+                    Develop a ground-based spacecraft simulator for hardware-in-the-loop simulations of on-orbit servicing missions.
+                  </p>
+                  <h4>Applications</h4>
+                  <p>
+                    Refueling, rendezvous, docking, capturing a tumbling object, etc.
+                  </p>
+  
+                  <h4>Issues & Challenges</h4>
+                  <p>
+                    <ul>
+                      <li>Ensure high precision.</li>
+                      <li>Develop a low-cost solution.</li>
+                      <li>Demonstrate a wide range of motion.</li>
+                      <li>Avoid singularity issues.</li>
+                    </ul>
+                  </p>
+                  <h4>Approaches & Results</h4>
+                  <h5><b>Approach 1:</b> Hybrid manipulator-based ground robotic platform for orbital motion emulation.</h5>
+                  <p>
+                    <ul>
+                      <li>It tracks a scaled-down orbital trajectory using a closed-loop inverse kinematics (CLIK) controller offering robustness against singularities and joint limits. <a href="https://arc.aiaa.org/doi/10.2514/1.I011008" target="_blank">[JAIS 2022]</a>, [ASC 2021]</li>
+                    </ul>
+                  </p>
+                  <div class="container row" style="width: 100%;">
+                    <div class="col-6 myimg text-center">
+                      <img src="images/IntegratedPlatform_control_alt.gif" width="100%" height="100%">
+                    </div>
+                    <div class="col-6 myimg text-center">
+                      <img src="images/gc_heo.png" width="100%">
+                    </div>
+                    <div class="col-12 text-center mycaption">
+                     Tracking the desired orbital trajectory while maintaining joint limit constraints.
+                   </div>
+                </div>
+                
+  
+                <br>
+                
+                <h5><b>Approach 2:</b> Emulating In-Space Servicing, Assembly, and Manufacturing (ISAM) missions with a 12-DOF Hardware-in-the-loop robotic testbed.</h5>
+                <p>
+                  <ul>
+                    <li>The system offers inherent modularity, allowing multiple use cases to emulate ISAM missions.
+                    <li>Scenario 1: This configuration significantly enhances motion capabilities, particularly in translation and rotation, due to the system’s inherent kinematic redundancy. [ASC 2023]</li>
+                    <li>Scenario 2: Such a configuration is particularly valuable for testing control methods for traditional serial-link robotic arms in space missions, where the hexapod replicates 6 DOF satellite motion. [SFMM 2025]</li>
+                  </ul>
+                </p>
+                
+                <div class="container row" style="width: 100%;">
+                  <div class="col-12 myimg text-center">
+                      <img src="images/simulator_overview.png" width="100%">
+                  </div>
+                  <div class="col-12 text-center mycaption">
+                   Modularity of the HIL Simulator
+                 </div>
+                  <br><br>
+                  
+                  <div class="col-12 myimg text-center">
+                      <video width="100%" height="100%" controls><source src="images/space_servicing_mission_asc.mp4" type="video/mp4"></video>
+                  </div>
+                  <div class="col-12 text-center mycaption">
+                   Experimental Analysis of an ISAM Mission to dock with a tumbling target satellite.
+                 </div>
+                  <br><br>
+                  
+                  <div class="col-12 myimg text-center">
+                      <video width="100%" height="100%" controls><source src="images/space_servicing_mission3.mp4" type="video/mp4"></video>
+                  </div>
+                  <div class="col-12 text-center mycaption">
+                   Experimental Analysis of an ISAM Mission to install a module in a tumbling target satellite.
+                 </div>
+                  
               </div>
-            </div>
+          </div>
           </div>
 
           <div class="tab-pane fade" id="v-cmg" role="tabpanel">
@@ -163,6 +235,7 @@
               </div>
             </div>
           </div>
+          
         </div>
 
 
