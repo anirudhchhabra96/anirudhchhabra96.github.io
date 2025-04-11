@@ -1,108 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="https://latex.now.sh/style.min.css" />
-  <link rel="stylesheet" href="base.css" />
-
-  <title>Anirudh Chhabra</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV | Anirudh Chhabra</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="base.css">
 </head>
 
-<!-- libertinus -->
-<body class="libertinus mainbody" style="width:100%;">
-  <script src="https://kit.fontawesome.com/c9df702e47.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<body>
 
-  <div id="page-container">
-    <div id="content-wrap">
-      <header>
-        <div class="container">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+  <div class="container">
+    <div class="d-flex align-items-center">
+      <img src="images/profile.png" class="profile-pic" alt="Profile">
+      <div>
+        <a href="index.html" class="name-link">Anirudh Chhabra</a><br>
+        <span class="designation">Ph.D. Aerospace Engineering • University of Cincinnati</span>
+      </div>
+    </div>
 
-          <div class="row">
-            <div class="col-sm-4 col-md-4 col-lg-4">
-              <img class="img" src="images/profile.png"/>
-            </div>
-            <div class="col-sm-8 col-md-8 col-lg-8">
-              <h1><span class="latex">Anirudh Chhabra</h1>
-                <p class="author"> Ph.D. Aerospace Engineering<br>University of Cincinnati</p>
-                <p class="socialicons">
-<!--                   <a href="https://www.linkedin.com/in/anirudh-chhabra" target="_blank"><i class="bi bi-linkedin"></i></a>
-                  <a href="https://scholar.google.com/citations?user=ZQJKM1QAAAAJ&hl=en"  target="_blank"><i class="fab fa-google-scholar"></i> </a>
-                  <a href="https://www.researchgate.net/profile/Anirudh-Chhabra" target="_blank"><i class="fab fa-researchgate"></i> </a> -->
-                  
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-                <a href="https://www.linkedin.com/in/anirudh-chhabra" target="_blank">LinkedIn</a> &nbsp; &nbsp; | &nbsp; &nbsp;
-                <!-- &nbsp; &nbsp; -->
-<!--                 <i class="bi bi-linkedin"></i> -->
-                <a href="https://scholar.google.com/citations?user=ZQJKM1QAAAAJ&hl=en" target="_blank">Google Scholar</a>
-<!--                 <i class="fab fa-google-scholar"></i> -->
-                <!-- &nbsp; &nbsp; -->
-<!--                 <a href="https://www.researchgate.net/profile/Anirudh-Chhabra" target="_blank"><i class="fab fa-researchgate"></i> </a> -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+        <li class="nav-item"><a class="nav-link" href="teaching.html">Teaching</a></li>
+        <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+        <li class="nav-item"><a class="nav-link active" href="cv.html">CV</a></li>
+        <li class="nav-item"><a class="nav-link" href="photos.html">Photos</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-                </p>
-              </div>
-            </div>
+<!-- Main Content -->
+<div class="container mt-5">
+  <h1>Curriculum Vitae</h1>
 
-            <div class="row mynavbar">
-              <ul class="nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="publications.html">Publications</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="research.html">Research</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="teaching.html">Teaching</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="cv.html">CV</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </header>
+  <p>You can view or download my latest CV below:</p>
 
-<!--         <p style="color:darkred; font-weight: bold; ">Under construction!</p> -->
+  <a href="Anirudh_CV.pdf" target="_blank" class="btn btn-outline-dark">Download CV (PDF)</a>
 
-        <iframe src="Anirudh_CV.pdf" width="100%" height="600px"></iframe>
-
-        <!-- <p><a href="#top" id="toplink">[Top]</a></p> -->
+  <div class="mt-4">
+    <iframe src="Anirudh_CV.pdf" width="100%" height="600px" style="border:1px solid #ccc;"></iframe>
+  </div>
+</div>
 
 
-        </div>
 
-        <footer id="footer" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <p><span>&copy; Anirudh Chhabra</span></p>
-        </footer>
+<!-- Footer -->
+<footer class="text-dark py-4 mt-auto border-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h6>Contact</h6>
+        <p>
+          <i class="bi bi-geo-alt"></i> Department of Aerospace Engineering, University of Cincinnati<br>
+          <i class="bi bi-envelope"></i> chhabrad@mail.uc.edu<br>
+          <i class="bi bi-telephone"></i> (513) 399-1473
+        </p>
       </div>
 
+      <div class="col-md-4">
+        <h6>Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="cv.html">CV/About Me</a></li>
+        </ul>
+      </div>
 
+      <div class="col-md-4">
+        <h6>Research Profiles</h6>
+        <div class="d-flex flex-wrap gap-2">
+          <a class="btn btn-outline-secondary btn-sm" href="https://scholar.google.com/citations?user=ZQJKM1QAAAAJ&hl=en" target="_blank">Google Scholar</a>
+          <a class="btn btn-outline-secondary btn-sm" href="https://www.researchgate.net/profile/Anirudh-Chhabra" target="_blank">ResearchGate</a>
+          <a class="btn btn-outline-secondary btn-sm" href="https://orcid.org/0000-0001-9092-1310" target="_blank">ORCID</a>
+          <a class="btn btn-outline-secondary btn-sm" href="https://www.linkedin.com/in/anirudh-chhabra/" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </div>
 
+    <div class="text-center mt-3 small">
+      &copy; 2025 Anirudh Chhabra. All rights reserved.
+    </div>
+  </div>
+</footer>
 
-      <script>
-      // dark mode toggle
-      function darkmodetoggle() {
-        document.body.classList.toggle("latex-dark");
-      }
-      // change active class for nav-bar on link change
-      $(function(){
-        $('a').each(function(){
-          if ($(this).prop('href') == window.location.href) {
-            $(this).addClass('active'); $(this).parents('.nav-item').addClass('active');
-          }
-        });
-      });
-
-      </script>
-
-      <script>
-      </script>
-
-    </body>
-    </html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
