@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -39,62 +39,54 @@
   </div>
 </nav>
 
-<!-- Main Content -->
-<div class="container my-5">
-  <h1>Research Projects</h1>
 
-  <!-- Project 1 -->
-  <div class="row mb-4">
-    <div class="col-md-2 d-flex align-items-center">
-      <!-- Square image (150 x 150) -->
-      <img src="images/simulator_overview.png" 
-           alt="Hardware-in-the-Loop Spacecraft Simulator"
-           class="img-fluid rounded"
-           style="width: 150px; height: 150px; object-fit: cover;">
+
+<main class="container mt-5">
+  <h1 class="mb-4">Research Projects</h1>
+
+  <div class="row g-4">
+    
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/dynamos.png" class="card-img-top" alt="HIL Simulator">
+        <div class="card-body">
+          <h5 class="card-title">Hardware-in-the-Loop Spacecraft Simulator</h5>
+          <p class="card-text small">A ground-based simulator for on-orbit servicing missions like rendezvous, docking, and refueling.</p>
+          <a href="hilsimulator.html" class="btn btn-outline-dark btn-sm">Learn More</a>
+        </div>
+      </div>
     </div>
-    <div class="col-md-10">
-      <h3>Hardware-in-the-Loop Spacecraft Simulator</h3>
-      <p>A ground-based simulator for on-orbit servicing missions like rendezvous, docking, and refueling.</p>
-      <a href="hilsimulator.html">Read More &rarr;</a>
+
+    <!-- <div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/cmg.jpg" class="card-img-top" alt="Attitude Control">
+        <div class="card-body">
+          <h5 class="card-title">Attitude Control Testbeds</h5>
+          <p class="card-text small">Developing compact spacecraft attitude control testbeds using reaction wheels and control moment gyroscopes.</p>
+          <a href="project2.html" class="btn btn-outline-dark btn-sm">Learn More</a>
+        </div>
+      </div>
     </div>
+
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/autonomy.jpg" class="card-img-top" alt="Autonomous Systems">
+        <div class="card-body">
+          <h5 class="card-title">Autonomous Systems & Multi-Agent Control</h5>
+          <p class="card-text small">Algorithms for collision avoidance, swarm robotics, and distributed control systems.</p>
+          <a href="project3.html" class="btn btn-outline-dark btn-sm">Learn More</a>
+        </div>
+      </div>
+    </div> -->
+
   </div>
-
   <br>
   <br>
-  <h6>More projects exist. Update coming soon.. :)</h6>
-  <!-- Project 2 -->
-  <!-- <div class="row mb-4">
-    <div class="col-md-2 d-flex align-items-center">
-      <img src="path/to/multi-agent-autonomous-systems.jpg" 
-           alt="Multi-Agent Autonomous Systems"
-           class="img-fluid rounded"
-           style="width: 150px; height: 150px; object-fit: cover;">
-    </div>
-    <div class="col-md-10">
-      <h3>Multi-Agent Autonomous Systems</h3>
-      <p>Collision-free navigation and control algorithms for swarms of robots and UAVs.</p>
-      <a href="#">Read More &rarr;</a>
-    </div>
-  </div> -->
+  <h6><b>More projects exist. <span style="color: red;"> Update coming soon.. :)</span></b></h6>
+  <br><br>
 
-  <!-- Project 3 -->
-  <!-- <div class="row mb-4">
-    <div class="col-md-2 d-flex align-items-center">
-      <img src="path/to/explainable-ai-in-robotics.jpg" 
-           alt="Explainable AI in Robotics"
-           class="img-fluid rounded"
-           style="width: 150px; height: 150px; object-fit: cover;">
-    </div>
-    <div class="col-md-10">
-      <h3>Explainable AI in Robotics</h3>
-      <p>Application of fuzzy logic and neural networks for interpretable decision-making in robotics.</p>
-      <a href="#">Read More &rarr;</a>
-    </div>
-  </div> -->
+</main>
 
-
-
-</div>
 
 
 <!-- Footer -->
@@ -104,7 +96,7 @@
       <div class="col-md-4">
         <h6>Contact</h6>
         <p>
-          <i class="bi bi-geo-alt"></i> Department of Aerospace Engineering, University of Cincinnati<br>
+          <i class="bi bi-geo-alt"></i> Department of Aerospace Engineering<br>University of Cincinnati<br>
           <i class="bi bi-envelope"></i> chhabrad@mail.uc.edu<br>
           <i class="bi bi-telephone"></i> (513) 399-1473
         </p>

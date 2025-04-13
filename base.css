@@ -187,3 +187,54 @@ pre {
   font-size: 0.75rem;
   white-space: pre-wrap;
 }
+.cv-iframe {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .cv-iframe {
+    width: 70%;
+  }
+}
+
+footer h6 {
+  font-weight: bold;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 350px;
+  transition: transform 0.3s ease;
+}
+
+.card-img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.card-img-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card-img-container:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+.card-img-container:hover .card-img-overlay {
+  opacity: 1;
+}
+
+
+/* .hero {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+              url('images/your_photo.jpeg') center/cover no-repeat;
+  color: white;
+} */
