@@ -277,6 +277,7 @@ footer h6 {
   justify-content: center;
   background: rgba(0,0,0,0.05); /* semi-transparent for readability */
   z-index: 2;
+  border-radius: 2.5rem;
   /* Remove any :hover logic from previous CSS */
 }
 
