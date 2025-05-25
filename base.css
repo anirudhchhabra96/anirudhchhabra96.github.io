@@ -284,6 +284,7 @@ footer h6 {
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 2.5rem;
 }
 /* .hero {
   background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
