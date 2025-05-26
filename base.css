@@ -98,7 +98,7 @@ body {
   /* box-shadow: 0 2px 8px rgba(128,0,0,0.06); */
 }
 /* .nav-link.active:hover {
-  color: white;
+color: white;
 } */
 
 /* Sticky Footer */
@@ -154,11 +154,11 @@ a:hover {
     width: 50px;
     margin-right: 8px;
   }
-
+  
   .name-link {
     font-size: 1rem;
   }
-
+  
   .designation {
     font-size: 0.75rem;
   }
@@ -166,7 +166,7 @@ a:hover {
 
 /* Navbar Header */
 /* .navbar {
-  background-color: #b3d1f0 !important;
+background-color: #b3d1f0 !important;
 } */
 
 /* Footer */
@@ -232,34 +232,34 @@ footer h6 {
 }
 /* 
 .card-img-top {
-  object-fit: cover;
-  height: 350px;
-  transition: transform 0.3s ease;
+object-fit: cover;
+height: 350px;
+transition: transform 0.3s ease;
 }
 
 .card-img-container {
-  position: relative;
-  overflow: hidden;
+position: relative;
+overflow: hidden;
 }
 
 
 .card-img-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  background: rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  transition: opacity 0.3s ease;
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+top: 0;
+background: rgba(0, 0, 0, 0.5);
+opacity: 0;
+transition: opacity 0.3s ease;
 }
 
 .card-img-container:hover .card-img-top {
-  transform: scale(1.05);
+transform: scale(1.05);
 }
 
 .card-img-container:hover .card-img-overlay {
-  opacity: 1;
+opacity: 1;
 } */
 
 .card-img-container {
@@ -288,9 +288,9 @@ footer h6 {
   border-radius: 2.5rem;
 }
 /* .hero {
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
-              url('images/your_photo.jpeg') center/cover no-repeat;
-  color: white;
+background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+url('images/your_photo.jpeg') center/cover no-repeat;
+color: white;
 } */
 
 .card .blockquote {
@@ -307,4 +307,22 @@ footer h6 {
 }
 .card .blockquote:last-child p {
   margin-bottom: 0;
+}
+
+.profile-btn-icon2 {
+  filter: grayscale(1);
+  transition: filter 0.2s;
+}
+.profile-btn2:hover .profile-btn-icon {
+  /* Maroon color filter for SVG icons */
+  filter: invert(13%) sepia(99%) saturate(7476%) hue-rotate(340deg) brightness(80%) contrast(110%);
+}
+
+
+.profile-btn-icon {
+  filter: grayscale(1);
+  transition: filter 0.2s;
+}
+.btn-outline-secondary.profile-btn:hover .profile-btn-icon {
+  filter: grayscale(0) brightness(0) invert(1);
 }

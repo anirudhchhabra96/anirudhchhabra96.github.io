@@ -10,641 +10,659 @@
 </head>
 
 <body>
-
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
-  <div class="container">
-    <div class="d-flex align-items-center">
-      <img src="images/profile.png" class="profile-pic" alt="Profile">
-      <div>
-        <a href="index.html" class="name-link">Anirudh Chhabra</a><br>
-        <span class="designation">Ph.D. Aerospace Engineering • University of Cincinnati</span>
-      </div>
-    </div>
-
-    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
-        <li class="nav-item"><a class="nav-link" href="teaching.html">Teaching</a></li>
-        <li class="nav-item"><a class="nav-link active" href="publications.html">Publications</a></li>
-        <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
-        <li class="nav-item"><a class="nav-link" href="photos.html">Photos</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!-- Main Content -->
-<div class="container mt-5">
-  <h1>Publications</h1>
-
-  <ul class="nav nav-tabs" id="pubTabs" role="tablist">
-    <li class="nav-item">
-      <button class="nav-link active" id="journal-tab" data-bs-toggle="tab" data-bs-target="#journals" type="button" role="tab">Journals</button>
-    </li>
-    <li class="nav-item">
-      <button class="nav-link" id="conf-tab" data-bs-toggle="tab" data-bs-target="#conferences" type="button" role="tab">Conferences</button>
-    </li>
-    <!-- <li class="nav-item">
-      <button class="nav-link" id="preprint-tab" data-bs-toggle="tab" data-bs-target="#preprints" type="button" role="tab">Preprints</button>
-    </li> -->
-  </ul>
-
-  <div class="tab-content mt-3">
-    <div class="tab-pane fade show active" id="journals" role="tabpanel">
-      <!-- JOURNAL START -->
-
-<div class="mb-4">
-  <p>
-    1. <strong>A. Chhabra</strong> and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Hardware-in-the-loop Simulation for In-Space Servicing: Design, Implementation, and Validation (Under Review)</span><br>
-    <i>IEEE Aerospace and Electronic Systems Magazine</i>, Mar. 2025.
-  </p>
   
-  <div class="mb-2">
-    
-    
-  </div>
-  
-  <pre id="bibtex27" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    2. <strong>A. Chhabra</strong> and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Ground Robotic Platform for Simulation of On-Orbit Servicing Missions</span><br>
-    <i>Journal of Aerospace Information Systems</i>, Jul. 2022.
-  </p>
-  <p class="text-muted">Autonomous on-orbit servicing missions require high precision because any unwanted contact forces can cause damage to space systems. This makes the on-ground hardware-in-the-loop simulations necessary as operations must be thoroughly evaluated before such missions are carried out in space. A robotic platform is proposed, where a 3-degree-of-freedom (3-DOF) robotic arm is placed atop a 6-DOF Stewart platform. A mathematical model is developed for the resulting 9-DOF redundant manipulator, and the corresponding dynamics are modeled and verified. Simulation studies are conducted using a constrained and singularity-robust pseudo-inverse control scheme, and the systems capability to follow a scaled-down orbital trajectory is tested. The results are presented, and the future implications of this study are discussed.</p>
-  <div class="mb-2">
-    <a href="https://arc.aiaa.org/doi/10.2514/1.I011008" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
-    <button class="btn btn-outline-dark btn-sm" onclick="toggleBibtex('bibtex1')">BibTeX</button>
-  </div>
-  
-  <pre id="bibtex1" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-@article{Chhabra2022JAIS, author = {Chhabra, Anirudh and Kim, Donghoon}, title = {Ground Robotic Platform for Simulation of On-Orbit Servicing Missions}, journal = {Journal of Aerospace Information Systems}, volume = {19}, number = {7}, pages = {480-493}, year = {2022}, doi = {10.2514/1.I011008}, URL = {https://doi.org/10.2514/1.I011008}, eprint = {https://doi.org/10.2514/1.I011008}}
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    3. <strong>A. Chhabra</strong>, J. Venepally, and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Measurement Noise Covariance-Adapting Kalman Filters for Varying Sensor Noise Situations</span><br>
-    <i>Sensors</i>, Dec. 12, 2021.
-  </p>
-  <p class="text-muted">An accurate and reliable positioning system (PS) is a significant topic of research due to its broad range of aerospace applications, such as the localization of autonomous agents in GPS-denied and indoor environments. The PS discussed in this work uses ultra-wide band (UWB) sensors to provide distance measurements. UWB sensors are based on radio frequency technology and offer low power consumption, wide bandwidth, and precise ranging in the presence of nominal environmental noise. However, in practical situations, UWB sensors experience varying measurement noise due to unexpected obstacles in the environment. The localization accuracy is highly dependent on the filtering of such noise, and the extended Kalman filter (EKF) is one of the widely used techniques. In varying noise situations, where the obstacles generate larger measurement noise than nominal levels, EKF cannot offer precise results. Therefore, this work proposes two approaches based on EKF: sequential adaptive EKF and piecewise adaptive EKF. Simulation studies are conducted in static, linear, and nonlinear scenarios, and it is observed that higher accuracy is achieved by applying the proposed approaches as compared to the traditional EKF method.</p>
-  <div class="mb-2">
-    <a href="https://doi.org/10.3390/s21248304" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
-    <button class="btn btn-outline-dark btn-sm" onclick="toggleBibtex('bibtex2')">BibTeX</button>
-  </div>
-  
-  <pre id="bibtex2" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-@Article{Chhabra2021Sensors, AUTHOR = {Chhabra, Anirudh and Venepally, Jashwanth Rao and Kim, Donghoon}, TITLE = {Measurement Noise Covariance-Adapting Kalman Filters for Varying Sensor Noise Situations}, JOURNAL = {Sensors}, VOLUME = {21}, YEAR = {2021}, NUMBER = {24}, ARTICLE-NUMBER = {8304}, URL = {https://www.mdpi.com/1424-8220/21/24/8304}, PubMedID = {34960398}, ISSN = {1424-8220}, DOI = {10.3390/s21248304}}
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    4. D. Choi, <strong>A. Chhabra</strong>, and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Intelligent Cooperative Collision Avoidance Via Fuzzy Potential Fields</span><br>
-    <i>Robotica</i>, Oct. 18, 2021.
-  </p>
-  <p class="text-muted">This paper proposes an intelligent cooperative collision avoidance approach combining the enhanced potential field (EPF) with a fuzzy inference system (FIS) to resolve local minima and goal non-reachable with obstacles nearby issues and provide a near-optimal collision-free trajectory. A genetic algorithm is utilized to optimize parameters of membership function and rule base of the FISs. This work uses a single scenario containing all issues and interactions among unmanned aerial vehicles (UAVs) for training. For validating the performance, two scenarios containing obstacles with different shapes and several UAVs in small airspace are considered. Multiple simulation results show that the proposed approach outperforms the conventional EPF approach statistically.</p>
-  <div class="mb-2">
-    <a href="https://www.cambridge.org/core/journals/robotica/article/abs/intelligent-cooperative-collision-avoidance-via-fuzzy-potential-fields/26CCCE3C29D65D87D02C92A0D360FF5C" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
-    <button class="btn btn-outline-dark btn-sm" onclick="toggleBibtex('bibtex3')">BibTeX</button>
-  </div>
-  
-  <pre id="bibtex3" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-@article{Choi2022Robotica, title={Intelligent cooperative collision avoidance via fuzzy potential fields}, volume={40}, DOI={10.1017/S0263574721001454}, number={6}, journal={Robotica}, author={Choi, Daegyun and Chhabra, Anirudh and Kim, Donghoon}, year={2022}, pages={1919-1938}}
-  </pre>
-</div>
-
-<!-- JOURNAL END -->
-    </div>
-
-    <div class="tab-pane fade" id="conferences" role="tabpanel">
-      <!-- CONF START -->
-
-<div class="mb-4">
-  <p>
-    1. <strong>A. Chhabra</strong>, G. Das, D. Quevedo, D. Choi, and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Development of a Reconfigurable Space Manipulator Testbed for Dynamic Coupling Analysis (Under Review)</span><br>
-    <i>IEEE National Aerospace & Electronics Conference, Dayton, Ohio</i>, Jul. 28, 2025.
-  </p>
-  
-  <div class="mb-2">
-    
-    
-  </div>
-  
-  <pre id="bibtex29" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    2. <strong>A. Chhabra</strong> and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Hardware-in-the-loop Simulation for In-Space Servicing: Design, Implementation, and Validation</span><br>
-    <i>National Security Research Symposium</i>, May. 1, 2025.
-  </p>
-  
-  <div class="mb-2">
-    
-    
-  </div>
-  <p class="text-primary medium fst-italic mb-0">🏆 First Prize in Poster Competition</p>
-  <pre id="bibtex28" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    3. <strong>A. Chhabra</strong>, A. Borger and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">A Modular Robotic Testbed for In-Space Mission Simulation</span><br>
-    <i>50th Dayton-Cincinnati Aerospace Sciences Symposium, Dayton, OH, USA</i>, Mar. 4, 2025.
-  </p>
-  
-  <div class="mb-2">
-    
-    
-  </div>
-  
-  <pre id="bibtex4" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    4. <strong>A. Chhabra</strong>, A. Borger, and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Advancing Simulation for In-Space Missions with a 12 Degrees-of-Freedom Robotic Testbed</span><br>
-    <i>2025 AAS/AIAA Space Flight Mechanics Meeting, Kauaâi, HI, USA</i>, Jan. 22, 2025.
-  </p>
-  
-  <div class="mb-2">
-    
-    
-  </div>
-  
-  <pre id="bibtex5" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    5. K. Wen, <strong>A. Chhabra</strong>, and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Application of Reinforcement Learning in High-Degree-of-Freedom Robotic Arms for Space Operations</span><br>
-    <i>John Glenn Memorial Symposium, Cleveland, OH, USA</i>, Jul. 17, 2024.
-  </p>
-  
-  <div class="mb-2">
-    
-    
-  </div>
-  
-  <pre id="bibtex6" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    6. <strong>A. Chhabra</strong> and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Intelligent Control for Robotic Spacecraft Simulator with Kinematic Redundancy</span><br>
-    <i>49th Dayton-Cincinnati Aerospace Sciences Symposium, Dayton, OH, USA</i>, Mar. 5, 2024.
-  </p>
-  
-  <div class="mb-2">
-    
-    
-  </div>
-  <p class="text-primary medium fst-italic mb-0">🏆 Best Technical Presentation - Space Category</p>
-  <pre id="bibtex7" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    7. S. Kraine, <strong>A. Chhabra</strong>, and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Simulating Martian Environments for Testing of Localization Algorithms</span><br>
-    <i>49th Dayton-Cincinnati Aerospace Sciences Symposium, Dayton, OH, USA</i>, Mar. 5, 2024.
-  </p>
-  
-  <div class="mb-2">
-    
-    
-  </div>
-  
-  <pre id="bibtex8" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    8. K. Wen, <strong>A. Chhabra</strong>, and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Application of Reinforcement Learning in High-Degree-of-Freedom Robotic Arms in Space</span><br>
-    <i>49th Dayton-Cincinnati Aerospace Sciences Symposium, Dayton, OH, USA</i>, Mar. 5, 2024.
-  </p>
-  
-  <div class="mb-2">
-    
-    
-  </div>
-  
-  <pre id="bibtex9" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    9. D. Choi, <strong>A. Chhabra</strong>, and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Fuzzy Inference System-applied Spacecraft Control for Final Approach of Rendezvous Process</span><br>
-    <i>2023 23rd International Conference on Control, Automation and Systems (ICCAS), Yeosu, Republic of Korea</i>, Oct. 20, 2023.
-  </p>
-  
-  <div class="mb-2">
-    <a href="https://anirudhchhabra96.github.io/Fuzzy%20Inference%20System-applied%20Spacecraft%20Control%20for%20Final%20Approach%20of%20Rendezvous%20Process" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
-    
-  </div>
-  
-  <pre id="bibtex10" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    10. <strong>A. Chhabra</strong> and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Development of a 12 Degrees-of-freedom Robotic Testbed for experimental analysis of In-Space Missions,</span><br>
-    <i>2023 AAS/AIAA Astrodynamics Specialist Conference, Big Sky, MT, USA</i>, Aug. 17, 2023.
-  </p>
-  
-  <div class="mb-2">
-    
-    
-  </div>
-  
-  <pre id="bibtex11" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    11. <strong>A. Chhabra</strong>, S. Karthikeyan, D. Choi, and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Fuzzy Logic-aided Inverse Kinematics Control for Redundant Manipulators</span><br>
-    <i>2023 North American Fuzzy Information Processing Society Conference, Cincinnati, OH, USA</i>, Jun. 2, 2023.
-  </p>
-  
-  <div class="mb-2">
-    <a href="https://link.springer.com/chapter/10.1007/978-3-031-46778-3_6" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
-    
-  </div>
-  <p class="text-primary medium fst-italic mb-0">🏆 Outstanding Paper Award</p>
-  <pre id="bibtex12" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    12. S. Sampathkumar, <strong>A. Chhabra</strong>, D. Choi, and D. Kim<br>
-    <span style="color:maroon; font-weight:500;"> Optimization of Artificial Potential Field using Genetic Algorithm for Human-aware Navigation of Autonomous Mobile Robots,</span><br>
-    <i>2023 North American Fuzzy Information Processing Society Conference, Cincinnati, OH, USA</i>, Jun. 2, 2023.
-  </p>
-  
-  <div class="mb-2">
-    <a href="https://link.springer.com/chapter/10.1007/978-3-031-46778-3_15" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
-    
-  </div>
-  <p class="text-primary medium fst-italic mb-0">🏆 Best Student Paper Award</p>
-  <pre id="bibtex13" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    13. <strong>A. Chhabra</strong> and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Design and Development of a Hardware-In-the-Loop (HIL) Spacecraft Simulator</span><br>
-    <i>48th Dayton-Cincinnati Aerospace Sciences Symposium, Dayton, OH, USA</i>, Feb. 28, 2023.
-  </p>
-  
-  <div class="mb-2">
-    
-    
-  </div>
-  
-  <pre id="bibtex14" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    14. S. Karthikeyan, <strong>A. Chhabra</strong>, D. Choi, and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Interpretable AI-based control for tumbling satellite capture</span><br>
-    <i>48th Dayton-Cincinnati Aerospace Sciences Symposium, Dayton, OH, USA</i>, Feb. 28, 2023.
-  </p>
-  
-  <div class="mb-2">
-    
-    
-  </div>
-  
-  <pre id="bibtex15" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    15. S. Karthikeyan, <strong>A. Chhabra</strong>, D. Choi, and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Fuzzy-Aided Closed-Loop Inverse Kinematics Control for Capturing a Tumbling Satellite</span><br>
-    <i>33rd AAS/AIAA Space Flight Mechanics Meeting, Austin, TX, USA</i>, Jan. 19, 2023.
-  </p>
-  
-  <div class="mb-2">
-    
-    
-  </div>
-  
-  <pre id="bibtex16" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    16. D. Choi, <strong>A. Chhabra</strong>, and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Collision Avoidance of Unmanned Aerial Vehicles Using Fuzzy Inference System-Aided Enhanced Potential Field</span><br>
-    <i>2022 AIAA Science and Technology Forum and Exposition, San Diego, CA, USA (Hybrid)</i>, Jan. 7, 2022.
-  </p>
-  
-  <div class="mb-2">
-    <a href="https://arc.aiaa.org/doi/abs/10.2514/6.2022-0272" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
-    
-  </div>
-  
-  <pre id="bibtex17" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    17. D. Choi, <strong>A. Chhabra</strong>, and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Genetic Algorithm-Aided Fuzzy Controller for Spacecraft Attitude Maneuver with Uncertainties</span><br>
-    <i>AIAA ASCEND, Las Vegas, NV, USA</i>, Nov. 17, 2021.
-  </p>
-  
-  <div class="mb-2">
-    <a href="https://arc.aiaa.org/doi/abs/10.2514/6.2021-4174" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
-    
-  </div>
-  
-  <pre id="bibtex18" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    18. <strong>A. Chhabra</strong>, D. Choi, and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Decentralized Collision Avoidance via Fuzzy Potential Fields,</span><br>
-    <i>IEEE National Aerospace & Electronics Conference, Virtual</i>, Aug. 19, 2021.
-  </p>
-  
-  <div class="mb-2">
-    <a href="https://ieeexplore.ieee.org/document/9696428" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
-    
-  </div>
-  
-  <pre id="bibtex19" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    19. <strong>A. Chhabra</strong> and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">A Unique Ground Simulator for On-orbit Service Mission Emulation,</span><br>
-    <i>2021 AAS/AIAA Astrodynamics Specialist Conference, Virtual</i>, Aug. 11, 2021.
-  </p>
-  
-  <div class="mb-2">
-    <a href="http://www.univelt.com/book=8753" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
-    
-  </div>
-  
-  <pre id="bibtex20" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    20. <strong>A. Chhabra</strong> and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">A Unique Robotic Platform for On-orbit Servicing Simulations</span><br>
-    <i>46th Dayton-Cincinnati Aerospace Sciences, Virtual</i>, Mar. 2, 2021.
-  </p>
-  
-  <div class="mb-2">
-    
-    
-  </div>
-  
-  <pre id="bibtex21" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    21. J. Venepally, <strong>A. Chhabra</strong>, and D. Kim<br>
-    <span style="color:maroon; font-weight:500;">Modified Kalman Filter Algorithms for Varying Sensor Noise Situations</span><br>
-    <i>46th Dayton-Cincinnati Aerospace Sciences, Virtual</i>, Mar. 2, 2021.
-  </p>
-  
-  <div class="mb-2">
-    
-    
-  </div>
-  <p class="text-primary medium fst-italic mb-0">🏆 Best Technical Presentation</p>
-  <pre id="bibtex22" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    22. <strong>A. Chhabra</strong>, D. Patel, X. Li, L. Pickering, J. Viana, and K. Cohen<br>
-    <span style="color:maroon; font-weight:500;">Understanding the Effects of Human Factors on the Spread of COVID-19 using a Neural Network</span><br>
-    <i>2020 7th International Conference on Soft Computing and Machine Intelligence, Stockholm, Sweden</i>, Nov. 14, 2020.
-  </p>
-  
-  <div class="mb-2">
-    
-    
-  </div>
-  
-  <pre id="bibtex23" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    23. L. Pickering, J. Viana, X. Li, <strong>A. Chhabra</strong>, D. Patel, and K. Cohen<br>
-    <span style="color:maroon; font-weight:500;">Identifying Factors in COVID - 19 AI Case Predictions</span><br>
-    <i>2020 7th International Conference on Soft Computing and Machine Intelligence, Stockholm, Sweden</i>, Nov. 14, 2020.
-  </p>
-  
-  <div class="mb-2">
-    
-    
-  </div>
-  
-  <pre id="bibtex24" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    24. <strong>A. Chhabra</strong>, D. Kim, and K. Cohen<br>
-    <span style="color:maroon; font-weight:500;">Enhanced Cascaded Genetic Fuzzy System for Counterfeit Banknote Detection</span><br>
-    <i>North American Fuzzy Information Processing Society, Virtual</i>, Aug. 22, 2020.
-  </p>
-  
-  <div class="mb-2">
-    <a href="https://doi.org/10.1007/978-3-030-81561-5_23" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
-    
-  </div>
-  
-  <pre id="bibtex25" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-
-<div class="mb-4">
-  <p>
-    25. <strong>A. Chhabra</strong>, D. Choi, D. Kim, and K. Cohen<br>
-    <span style="color:maroon; font-weight:500;">An Explainable AI based Path Planning Model for UAVs,</span><br>
-    <i>45th Dayton-Cincinnati Aerospace Sciences, Dayton, OH, USA</i>, Mar. 3, 2020.
-  </p>
-  
-  <div class="mb-2">
-    
-    
-  </div>
-  
-  <pre id="bibtex26" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
-
-  </pre>
-</div>
-
-<!-- CONF END -->
-    </div>
-    
-  </div>
-
-</div>
-
-<!-- Footer -->
-<footer class="text-dark py-4 mt-auto border-top">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <h6>Contact</h6>
-        <p>
-          <i class="bi bi-geo-alt"></i> Department of Aerospace Engineering<br>University of Cincinnati<br>
-          <i class="bi bi-envelope"></i> chhabrad@mail.uc.edu<br>
-          <i class="bi bi-telephone"></i> (513) 399-1473
-        </p>
-      </div>
-
-      <div class="col-md-4">
-        <h6>Quick Links</h6>
-        <ul class="list-unstyled">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="research.html">Research</a></li>
-          <li><a href="teaching.html">Teaching</a></li>
-          <li><a href="publications.html">Publications</a></li>
-          <li><a href="cv.html">CV</a></li>
-          <li><a href="photos.html">Photos</a></li>
-        </ul>
-      </div>
-
-      <div class="col-md-4">
-        <h6>Research Profiles</h6>
-        <div class="d-flex flex-wrap gap-2">
-          <a class="btn btn-outline-secondary btn-sm" href="https://scholar.google.com/citations?user=ZQJKM1QAAAAJ&hl=en" target="_blank">Google Scholar</a>
-          <a class="btn btn-outline-secondary btn-sm" href="https://www.researchgate.net/profile/Anirudh-Chhabra" target="_blank">ResearchGate</a>
-          <a class="btn btn-outline-secondary btn-sm" href="https://orcid.org/0000-0001-9092-1310" target="_blank">ORCID</a>
-          <a class="btn btn-outline-secondary btn-sm" href="https://www.linkedin.com/in/anirudh-chhabra/" target="_blank">LinkedIn</a>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+    <div class="container">
+      <div class="d-flex align-items-center gap-3">
+        <img src="images/profile.png" class="profile-pic" alt="Profile" style="width:60px; height:60px; object-fit:cover; border-radius:50%;">
+        <div class="d-flex flex-column">
+          <span class="fw-bold" style="font-size:1.25rem;">Anirudh Chhabra</span>
+          <div class="d-flex align-items-center gap-2 mt-1">
+            <a class="btn p-0 profile-btn2" href="https://scholar.google.com/citations?user=ZQJKM1QAAAAJ&hl=en" target="_blank" title="Google Scholar">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/googlescholar.svg" alt="Google Scholar" width="20" height="20" class="profile-btn-icon">
+            </a>
+            <a class="btn p-0 profile-btn2" href="https://www.researchgate.net/profile/Anirudh-Chhabra" target="_blank" title="ResearchGate">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/researchgate.svg" alt="ResearchGate" width="20" height="20" class="profile-btn-icon">
+            </a>
+            <a class="btn p-0 profile-btn2" href="https://www.linkedin.com/in/anirudh-chhabra/" target="_blank" title="LinkedIn">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" width="20" height="20" class="profile-btn-icon">
+            </a>
+          </div>
         </div>
       </div>
+      
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="teaching.html">Teaching</a></li>
+          <li class="nav-item"><a class="nav-link active" href="publications.html">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="photos.html">Photos</a></li>
+        </ul>
+      </div>
     </div>
-
-    <div class="text-center mt-3 small">
-      &copy; 2025 Anirudh Chhabra. All rights reserved.
+  </nav>
+  
+  <!-- Main Content -->
+  <div class="container mt-5">
+    <h1>Publications</h1>
+    
+    <ul class="nav nav-tabs" id="pubTabs" role="tablist">
+      <li class="nav-item">
+        <button class="nav-link active" id="journal-tab" data-bs-toggle="tab" data-bs-target="#journals" type="button" role="tab">Journals</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" id="conf-tab" data-bs-toggle="tab" data-bs-target="#conferences" type="button" role="tab">Conferences</button>
+      </li>
+      <!-- <li class="nav-item">
+        <button class="nav-link" id="preprint-tab" data-bs-toggle="tab" data-bs-target="#preprints" type="button" role="tab">Preprints</button>
+      </li> -->
+    </ul>
+    
+    <div class="tab-content mt-3">
+      <div class="tab-pane fade show active" id="journals" role="tabpanel">
+        <!-- JOURNAL START -->
+        
+        <div class="mb-4">
+          <p>
+            1. <strong>A. Chhabra</strong> and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Hardware-in-the-loop Simulation for In-Space Servicing: Design, Implementation, and Validation (Under Review)</span><br>
+            <i>IEEE Aerospace and Electronic Systems Magazine</i>, Mar. 2025.
+          </p>
+          
+          <div class="mb-2">
+            
+            
+          </div>
+          
+          <pre id="bibtex27" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            2. <strong>A. Chhabra</strong> and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Ground Robotic Platform for Simulation of On-Orbit Servicing Missions</span><br>
+            <i>Journal of Aerospace Information Systems</i>, Jul. 2022.
+          </p>
+          <p class="text-muted">Autonomous on-orbit servicing missions require high precision because any unwanted contact forces can cause damage to space systems. This makes the on-ground hardware-in-the-loop simulations necessary as operations must be thoroughly evaluated before such missions are carried out in space. A robotic platform is proposed, where a 3-degree-of-freedom (3-DOF) robotic arm is placed atop a 6-DOF Stewart platform. A mathematical model is developed for the resulting 9-DOF redundant manipulator, and the corresponding dynamics are modeled and verified. Simulation studies are conducted using a constrained and singularity-robust pseudo-inverse control scheme, and the systems capability to follow a scaled-down orbital trajectory is tested. The results are presented, and the future implications of this study are discussed.</p>
+          <div class="mb-2">
+            <a href="https://arc.aiaa.org/doi/10.2514/1.I011008" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
+            <button class="btn btn-outline-dark btn-sm" onclick="toggleBibtex('bibtex1')">BibTeX</button>
+          </div>
+          
+          <pre id="bibtex1" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            @article{Chhabra2022JAIS, author = {Chhabra, Anirudh and Kim, Donghoon}, title = {Ground Robotic Platform for Simulation of On-Orbit Servicing Missions}, journal = {Journal of Aerospace Information Systems}, volume = {19}, number = {7}, pages = {480-493}, year = {2022}, doi = {10.2514/1.I011008}, URL = {https://doi.org/10.2514/1.I011008}, eprint = {https://doi.org/10.2514/1.I011008}}
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            3. <strong>A. Chhabra</strong>, J. Venepally, and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Measurement Noise Covariance-Adapting Kalman Filters for Varying Sensor Noise Situations</span><br>
+            <i>Sensors</i>, Dec. 12, 2021.
+          </p>
+          <p class="text-muted">An accurate and reliable positioning system (PS) is a significant topic of research due to its broad range of aerospace applications, such as the localization of autonomous agents in GPS-denied and indoor environments. The PS discussed in this work uses ultra-wide band (UWB) sensors to provide distance measurements. UWB sensors are based on radio frequency technology and offer low power consumption, wide bandwidth, and precise ranging in the presence of nominal environmental noise. However, in practical situations, UWB sensors experience varying measurement noise due to unexpected obstacles in the environment. The localization accuracy is highly dependent on the filtering of such noise, and the extended Kalman filter (EKF) is one of the widely used techniques. In varying noise situations, where the obstacles generate larger measurement noise than nominal levels, EKF cannot offer precise results. Therefore, this work proposes two approaches based on EKF: sequential adaptive EKF and piecewise adaptive EKF. Simulation studies are conducted in static, linear, and nonlinear scenarios, and it is observed that higher accuracy is achieved by applying the proposed approaches as compared to the traditional EKF method.</p>
+          <div class="mb-2">
+            <a href="https://doi.org/10.3390/s21248304" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
+            <button class="btn btn-outline-dark btn-sm" onclick="toggleBibtex('bibtex2')">BibTeX</button>
+          </div>
+          
+          <pre id="bibtex2" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            @Article{Chhabra2021Sensors, AUTHOR = {Chhabra, Anirudh and Venepally, Jashwanth Rao and Kim, Donghoon}, TITLE = {Measurement Noise Covariance-Adapting Kalman Filters for Varying Sensor Noise Situations}, JOURNAL = {Sensors}, VOLUME = {21}, YEAR = {2021}, NUMBER = {24}, ARTICLE-NUMBER = {8304}, URL = {https://www.mdpi.com/1424-8220/21/24/8304}, PubMedID = {34960398}, ISSN = {1424-8220}, DOI = {10.3390/s21248304}}
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            4. D. Choi, <strong>A. Chhabra</strong>, and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Intelligent Cooperative Collision Avoidance Via Fuzzy Potential Fields</span><br>
+            <i>Robotica</i>, Oct. 18, 2021.
+          </p>
+          <p class="text-muted">This paper proposes an intelligent cooperative collision avoidance approach combining the enhanced potential field (EPF) with a fuzzy inference system (FIS) to resolve local minima and goal non-reachable with obstacles nearby issues and provide a near-optimal collision-free trajectory. A genetic algorithm is utilized to optimize parameters of membership function and rule base of the FISs. This work uses a single scenario containing all issues and interactions among unmanned aerial vehicles (UAVs) for training. For validating the performance, two scenarios containing obstacles with different shapes and several UAVs in small airspace are considered. Multiple simulation results show that the proposed approach outperforms the conventional EPF approach statistically.</p>
+          <div class="mb-2">
+            <a href="https://www.cambridge.org/core/journals/robotica/article/abs/intelligent-cooperative-collision-avoidance-via-fuzzy-potential-fields/26CCCE3C29D65D87D02C92A0D360FF5C" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
+            <button class="btn btn-outline-dark btn-sm" onclick="toggleBibtex('bibtex3')">BibTeX</button>
+          </div>
+          
+          <pre id="bibtex3" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            @article{Choi2022Robotica, title={Intelligent cooperative collision avoidance via fuzzy potential fields}, volume={40}, DOI={10.1017/S0263574721001454}, number={6}, journal={Robotica}, author={Choi, Daegyun and Chhabra, Anirudh and Kim, Donghoon}, year={2022}, pages={1919-1938}}
+          </pre>
+        </div>
+        
+        <!-- JOURNAL END -->
+      </div>
+      
+      <div class="tab-pane fade" id="conferences" role="tabpanel">
+        <!-- CONF START -->
+        
+        <div class="mb-4">
+          <p>
+            1. <strong>A. Chhabra</strong>, G. Das, D. Quevedo, D. Choi, and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Development of a Reconfigurable Space Manipulator Testbed for Dynamic Coupling Analysis (Under Review)</span><br>
+            <i>IEEE National Aerospace & Electronics Conference, Dayton, Ohio</i>, Jul. 28, 2025.
+          </p>
+          
+          <div class="mb-2">
+            
+            
+          </div>
+          
+          <pre id="bibtex29" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            2. <strong>A. Chhabra</strong> and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Hardware-in-the-loop Simulation for In-Space Servicing: Design, Implementation, and Validation</span><br>
+            <i>National Security Research Symposium</i>, May. 1, 2025.
+          </p>
+          
+          <div class="mb-2">
+            
+            
+          </div>
+          <p class="text-primary medium fst-italic mb-0">🏆 First Prize in Poster Competition</p>
+          <pre id="bibtex28" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            3. <strong>A. Chhabra</strong>, A. Borger and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">A Modular Robotic Testbed for In-Space Mission Simulation</span><br>
+            <i>50th Dayton-Cincinnati Aerospace Sciences Symposium, Dayton, OH, USA</i>, Mar. 4, 2025.
+          </p>
+          
+          <div class="mb-2">
+            
+            
+          </div>
+          
+          <pre id="bibtex4" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            4. <strong>A. Chhabra</strong>, A. Borger, and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Advancing Simulation for In-Space Missions with a 12 Degrees-of-Freedom Robotic Testbed</span><br>
+            <i>2025 AAS/AIAA Space Flight Mechanics Meeting, Kauaâi, HI, USA</i>, Jan. 22, 2025.
+          </p>
+          
+          <div class="mb-2">
+            
+            
+          </div>
+          
+          <pre id="bibtex5" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            5. K. Wen, <strong>A. Chhabra</strong>, and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Application of Reinforcement Learning in High-Degree-of-Freedom Robotic Arms for Space Operations</span><br>
+            <i>John Glenn Memorial Symposium, Cleveland, OH, USA</i>, Jul. 17, 2024.
+          </p>
+          
+          <div class="mb-2">
+            
+            
+          </div>
+          
+          <pre id="bibtex6" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            6. <strong>A. Chhabra</strong> and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Intelligent Control for Robotic Spacecraft Simulator with Kinematic Redundancy</span><br>
+            <i>49th Dayton-Cincinnati Aerospace Sciences Symposium, Dayton, OH, USA</i>, Mar. 5, 2024.
+          </p>
+          
+          <div class="mb-2">
+            
+            
+          </div>
+          <p class="text-primary medium fst-italic mb-0">🏆 Best Technical Presentation - Space Category</p>
+          <pre id="bibtex7" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            7. S. Kraine, <strong>A. Chhabra</strong>, and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Simulating Martian Environments for Testing of Localization Algorithms</span><br>
+            <i>49th Dayton-Cincinnati Aerospace Sciences Symposium, Dayton, OH, USA</i>, Mar. 5, 2024.
+          </p>
+          
+          <div class="mb-2">
+            
+            
+          </div>
+          
+          <pre id="bibtex8" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            8. K. Wen, <strong>A. Chhabra</strong>, and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Application of Reinforcement Learning in High-Degree-of-Freedom Robotic Arms in Space</span><br>
+            <i>49th Dayton-Cincinnati Aerospace Sciences Symposium, Dayton, OH, USA</i>, Mar. 5, 2024.
+          </p>
+          
+          <div class="mb-2">
+            
+            
+          </div>
+          
+          <pre id="bibtex9" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            9. D. Choi, <strong>A. Chhabra</strong>, and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Fuzzy Inference System-applied Spacecraft Control for Final Approach of Rendezvous Process</span><br>
+            <i>2023 23rd International Conference on Control, Automation and Systems (ICCAS), Yeosu, Republic of Korea</i>, Oct. 20, 2023.
+          </p>
+          
+          <div class="mb-2">
+            <a href="https://anirudhchhabra96.github.io/Fuzzy%20Inference%20System-applied%20Spacecraft%20Control%20for%20Final%20Approach%20of%20Rendezvous%20Process" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
+            
+          </div>
+          
+          <pre id="bibtex10" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            10. <strong>A. Chhabra</strong> and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Development of a 12 Degrees-of-freedom Robotic Testbed for experimental analysis of In-Space Missions,</span><br>
+            <i>2023 AAS/AIAA Astrodynamics Specialist Conference, Big Sky, MT, USA</i>, Aug. 17, 2023.
+          </p>
+          
+          <div class="mb-2">
+            
+            
+          </div>
+          
+          <pre id="bibtex11" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            11. <strong>A. Chhabra</strong>, S. Karthikeyan, D. Choi, and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Fuzzy Logic-aided Inverse Kinematics Control for Redundant Manipulators</span><br>
+            <i>2023 North American Fuzzy Information Processing Society Conference, Cincinnati, OH, USA</i>, Jun. 2, 2023.
+          </p>
+          
+          <div class="mb-2">
+            <a href="https://link.springer.com/chapter/10.1007/978-3-031-46778-3_6" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
+            
+          </div>
+          <p class="text-primary medium fst-italic mb-0">🏆 Outstanding Paper Award</p>
+          <pre id="bibtex12" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            12. S. Sampathkumar, <strong>A. Chhabra</strong>, D. Choi, and D. Kim<br>
+            <span style="color:maroon; font-weight:500;"> Optimization of Artificial Potential Field using Genetic Algorithm for Human-aware Navigation of Autonomous Mobile Robots,</span><br>
+            <i>2023 North American Fuzzy Information Processing Society Conference, Cincinnati, OH, USA</i>, Jun. 2, 2023.
+          </p>
+          
+          <div class="mb-2">
+            <a href="https://link.springer.com/chapter/10.1007/978-3-031-46778-3_15" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
+            
+          </div>
+          <p class="text-primary medium fst-italic mb-0">🏆 Best Student Paper Award</p>
+          <pre id="bibtex13" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            13. <strong>A. Chhabra</strong> and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Design and Development of a Hardware-In-the-Loop (HIL) Spacecraft Simulator</span><br>
+            <i>48th Dayton-Cincinnati Aerospace Sciences Symposium, Dayton, OH, USA</i>, Feb. 28, 2023.
+          </p>
+          
+          <div class="mb-2">
+            
+            
+          </div>
+          
+          <pre id="bibtex14" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            14. S. Karthikeyan, <strong>A. Chhabra</strong>, D. Choi, and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Interpretable AI-based control for tumbling satellite capture</span><br>
+            <i>48th Dayton-Cincinnati Aerospace Sciences Symposium, Dayton, OH, USA</i>, Feb. 28, 2023.
+          </p>
+          
+          <div class="mb-2">
+            
+            
+          </div>
+          
+          <pre id="bibtex15" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            15. S. Karthikeyan, <strong>A. Chhabra</strong>, D. Choi, and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Fuzzy-Aided Closed-Loop Inverse Kinematics Control for Capturing a Tumbling Satellite</span><br>
+            <i>33rd AAS/AIAA Space Flight Mechanics Meeting, Austin, TX, USA</i>, Jan. 19, 2023.
+          </p>
+          
+          <div class="mb-2">
+            
+            
+          </div>
+          
+          <pre id="bibtex16" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            16. D. Choi, <strong>A. Chhabra</strong>, and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Collision Avoidance of Unmanned Aerial Vehicles Using Fuzzy Inference System-Aided Enhanced Potential Field</span><br>
+            <i>2022 AIAA Science and Technology Forum and Exposition, San Diego, CA, USA (Hybrid)</i>, Jan. 7, 2022.
+          </p>
+          
+          <div class="mb-2">
+            <a href="https://arc.aiaa.org/doi/abs/10.2514/6.2022-0272" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
+            
+          </div>
+          
+          <pre id="bibtex17" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            17. D. Choi, <strong>A. Chhabra</strong>, and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Genetic Algorithm-Aided Fuzzy Controller for Spacecraft Attitude Maneuver with Uncertainties</span><br>
+            <i>AIAA ASCEND, Las Vegas, NV, USA</i>, Nov. 17, 2021.
+          </p>
+          
+          <div class="mb-2">
+            <a href="https://arc.aiaa.org/doi/abs/10.2514/6.2021-4174" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
+            
+          </div>
+          
+          <pre id="bibtex18" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            18. <strong>A. Chhabra</strong>, D. Choi, and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Decentralized Collision Avoidance via Fuzzy Potential Fields,</span><br>
+            <i>IEEE National Aerospace & Electronics Conference, Virtual</i>, Aug. 19, 2021.
+          </p>
+          
+          <div class="mb-2">
+            <a href="https://ieeexplore.ieee.org/document/9696428" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
+            
+          </div>
+          
+          <pre id="bibtex19" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            19. <strong>A. Chhabra</strong> and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">A Unique Ground Simulator for On-orbit Service Mission Emulation,</span><br>
+            <i>2021 AAS/AIAA Astrodynamics Specialist Conference, Virtual</i>, Aug. 11, 2021.
+          </p>
+          
+          <div class="mb-2">
+            <a href="http://www.univelt.com/book=8753" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
+            
+          </div>
+          
+          <pre id="bibtex20" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            20. <strong>A. Chhabra</strong> and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">A Unique Robotic Platform for On-orbit Servicing Simulations</span><br>
+            <i>46th Dayton-Cincinnati Aerospace Sciences, Virtual</i>, Mar. 2, 2021.
+          </p>
+          
+          <div class="mb-2">
+            
+            
+          </div>
+          
+          <pre id="bibtex21" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            21. J. Venepally, <strong>A. Chhabra</strong>, and D. Kim<br>
+            <span style="color:maroon; font-weight:500;">Modified Kalman Filter Algorithms for Varying Sensor Noise Situations</span><br>
+            <i>46th Dayton-Cincinnati Aerospace Sciences, Virtual</i>, Mar. 2, 2021.
+          </p>
+          
+          <div class="mb-2">
+            
+            
+          </div>
+          <p class="text-primary medium fst-italic mb-0">🏆 Best Technical Presentation</p>
+          <pre id="bibtex22" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            22. <strong>A. Chhabra</strong>, D. Patel, X. Li, L. Pickering, J. Viana, and K. Cohen<br>
+            <span style="color:maroon; font-weight:500;">Understanding the Effects of Human Factors on the Spread of COVID-19 using a Neural Network</span><br>
+            <i>2020 7th International Conference on Soft Computing and Machine Intelligence, Stockholm, Sweden</i>, Nov. 14, 2020.
+          </p>
+          
+          <div class="mb-2">
+            
+            
+          </div>
+          
+          <pre id="bibtex23" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            23. L. Pickering, J. Viana, X. Li, <strong>A. Chhabra</strong>, D. Patel, and K. Cohen<br>
+            <span style="color:maroon; font-weight:500;">Identifying Factors in COVID - 19 AI Case Predictions</span><br>
+            <i>2020 7th International Conference on Soft Computing and Machine Intelligence, Stockholm, Sweden</i>, Nov. 14, 2020.
+          </p>
+          
+          <div class="mb-2">
+            
+            
+          </div>
+          
+          <pre id="bibtex24" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            24. <strong>A. Chhabra</strong>, D. Kim, and K. Cohen<br>
+            <span style="color:maroon; font-weight:500;">Enhanced Cascaded Genetic Fuzzy System for Counterfeit Banknote Detection</span><br>
+            <i>North American Fuzzy Information Processing Society, Virtual</i>, Aug. 22, 2020.
+          </p>
+          
+          <div class="mb-2">
+            <a href="https://doi.org/10.1007/978-3-030-81561-5_23" target="_blank" class="btn btn-outline-primary btn-sm me-2">View Paper</a>
+            
+          </div>
+          
+          <pre id="bibtex25" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        
+        <div class="mb-4">
+          <p>
+            25. <strong>A. Chhabra</strong>, D. Choi, D. Kim, and K. Cohen<br>
+            <span style="color:maroon; font-weight:500;">An Explainable AI based Path Planning Model for UAVs,</span><br>
+            <i>45th Dayton-Cincinnati Aerospace Sciences, Dayton, OH, USA</i>, Mar. 3, 2020.
+          </p>
+          
+          <div class="mb-2">
+            
+            
+          </div>
+          
+          <pre id="bibtex26" style="display:none; background:#f8f9fa; padding:0.5rem; border-radius:5px;">
+            
+          </pre>
+        </div>
+        
+        <!-- CONF END -->
+      </div>
+      
     </div>
+    
   </div>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-  function toggleBibtex(id) {
-    var x = document.getElementById(id);
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
+  
+  <!-- Footer -->
+  <footer class="text-dark py-4 mt-auto border-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h6>Contact</h6>
+          <p>
+            <i class="bi bi-geo-alt"></i> Department of Aerospace Engineering<br>University of Cincinnati<br>
+            <i class="bi bi-envelope"></i> chhabrad@mail.uc.edu<br>
+            <i class="bi bi-telephone"></i> (513) 399-1473
+          </p>
+        </div>
+        
+        <div class="col-md-4">
+          <h6>Quick Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="photos.html">Photos</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-md-4">
+          <h6>Research Profiles</h6>
+          <div class="d-flex flex-wrap gap-2">
+            <a class="btn btn-outline-secondary btn-sm d-flex align-items-center gap-1 profile-btn" href="https://scholar.google.com/citations?user=ZQJKM1QAAAAJ&hl=en" target="_blank">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/googlescholar.svg" alt="Google Scholar" width="16" height="16" class="profile-btn-icon"> Google Scholar
+            </a>
+            <a class="btn btn-outline-secondary btn-sm d-flex align-items-center gap-1 profile-btn" href="https://www.researchgate.net/profile/Anirudh-Chhabra" target="_blank">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/researchgate.svg" alt="ResearchGate" width="16" height="16" class="profile-btn-icon"> ResearchGate
+            </a>
+            <!-- <a class="btn btn-outline-secondary btn-sm d-flex align-items-center gap-1 profile-btn" href="https://orcid.org/0000-0001-9092-1310" target="_blank">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/orcid.svg" alt="ORCID" width="16" height="16" class="profile-btn-icon"> ORCID
+            </a> -->
+            <a class="btn btn-outline-secondary btn-sm d-flex align-items-center gap-1 profile-btn" href="https://www.linkedin.com/in/anirudh-chhabra/" target="_blank">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" width="16" height="16" class="profile-btn-icon"> LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-3 small">
+        &copy; 2025 Anirudh Chhabra. All rights reserved.
+      </div>
+    </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function toggleBibtex(id) {
+      var x = document.getElementById(id);
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
     }
-  }
   </script>
-
+  
 </body>
 </html>
