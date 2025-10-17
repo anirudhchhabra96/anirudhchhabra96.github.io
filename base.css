@@ -285,13 +285,16 @@ opacity: 1;
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 2.5rem;
+  /* border-radius: 2.5rem; */
 }
 /* .hero {
 background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
 url('images/your_photo.jpeg') center/cover no-repeat;
 color: white;
 } */
+.card {
+  border: 1px solid #000;
+}
 
 .card .blockquote {
   font-size: 0.98rem;
