@@ -50,7 +50,9 @@ def render_pub(row, display_idx):
         bibtex_btn = ""
         bibtex_data = ""
 
-    remarks_str = f'<p class="text-primary medium fst-italic mb-0">🏆 {row[11]}</p>' if pd.notnull(row[11]) and row[11].strip() != "" else ""
+    remark_icons = {"award": "🏆", "general": "📝"}
+    remark_icon = remark_icons.get(row[12], "📝") if pd.notnull(row[12]) else "📝"
+    remarks_str = f'<p class="text-primary medium fst-italic mb-0">{remark_icon} {row[11]}</p>' if pd.notnull(row[11]) and row[11].strip() != "" else ""
 
     return f"""
 <div class="mb-4">
